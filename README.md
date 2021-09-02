@@ -95,8 +95,10 @@ b) Ridge Regression for feature felection
 1) Linear Models 
 2) Tree Algorithms 
 3) Boosting algorithms 
-4) H2O Auto ML
-5) Eval ML
+4) Artificial Neural Networks
+5) H2O Auto ML
+6) Eval ML
+
 
 
 

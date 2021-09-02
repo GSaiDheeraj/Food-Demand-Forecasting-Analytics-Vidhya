@@ -40,3 +40,80 @@ The replenishment of raw materials is done only on weekly basis and since the ra
 
 Predicting the Demand helps in reducing the wastage of raw materials which would result in the reduced cost of operation. Increased customer satisfaction by timely fulfilling their expectations and requirements.
 
+## Data Preprocessing
+
+1) Importing the data
+2) Merging the data
+3) Checking for Null values
+4) Checking Categorical data types and Numercal data Types
+
+## EDA 
+
+### Univariate Analysis
+1) Count Plots of the categorical variables to know the ditribution of data. If the data was not normaly distributed we convert the data into log normal ditribution.
+
+2) Boxplots of the numerical variables to know the outliers.
+
+### Bivriate analysis
+1) Barplot center_type vs num_order gives the information of sale at each type of center
+2) week vs num_order gives the week wise sales of food items
+3) barplot category vs num_order gives the information of highly sold category
+4) week vs emailer_of_promotion gives information of week wise promotions so that we can compare the promostion vs sales 
+5) check_out_price vs num_orders gives the information of whether the low cost item was selling more or not 
+6) region vs num_orders gives the information of the region wise sales
+
+-- I have used Auto EDA library "AutoViz" for vizulaizong the missed realtions and understanding the data more clearly.
+
+## Feature Engineering 
+
+-- Created the additional required features on which num_orders depend.
+
+1) discount
+2) discount percent
+3) year
+4) Quarter 
+
+-- Encoded all the features using dummies
+
+## Feature Selection 
+
+-- Four Feature slection methods were used
+### 1) Filter methods 
+a) Correlation: Highly correlated independent features will be removed 
+b) Anova Test: Gives top 40 features 
+c) PCA : principal component analysis 
+### 2) Wrapper Methods
+a) Forward Feature Selection method
+b) Sequential Feature Selection method
+c) Recursive Feature Elimination method
+d) Exhaustive feature Selection
+### 3) Embedded Methods
+a) Lasso Regression for feature seleciton
+b) Ridge Regression for feature felection
+
+### Models 
+1) Linear Models 
+2) Tree Algorithms 
+3) Boosting algorithms 
+4) H2O Auto ML
+5) Eval ML
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

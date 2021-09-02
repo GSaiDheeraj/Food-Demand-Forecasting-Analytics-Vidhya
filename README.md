@@ -79,16 +79,16 @@ Predicting the Demand helps in reducing the wastage of raw materials which would
 
 -- Three Feature slection methods were used
 ### 1) Filter methods 
-a) Correlation: Highly correlated independent features will be removed 
-b) Anova Test: Gives top 40 features 
-c) PCA : principal component analysis 
+a) Correlation: Highly correlated independent features will be removed                                                                                                                                    
+b) Anova Test: Gives top 40 features                                                                                                                                                             
+c) PCA : principal component analysis                                                                                                                                                         
 ### 2) Wrapper Methods
-a) Forward Feature Selection method
-b) Sequential Feature Selection method
-c) Recursive Feature Elimination method
-d) Exhaustive feature Selection
+a) Forward Feature Selection method                                                                                                                                                              
+b) Sequential Feature Selection method                                                                                                                                                              
+c) Recursive Feature Elimination method                                                                                                                                                              
+d) Exhaustive feature Selection                                                                                                                                                              
 ### 3) Embedded Methods
-a) Lasso Regression for feature seleciton
+a) Lasso Regression for feature seleciton                                                                                                                                                              
 b) Ridge Regression for feature felection
 
 ## Models 

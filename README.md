@@ -91,7 +91,7 @@ d) Exhaustive feature Selection
 a) Lasso Regression for feature seleciton
 b) Ridge Regression for feature felection
 
-### Models 
+## Models 
 1) Linear Models 
 2) Tree Algorithms 
 3) Boosting algorithms 

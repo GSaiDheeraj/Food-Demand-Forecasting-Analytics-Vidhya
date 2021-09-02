@@ -77,7 +77,7 @@ Predicting the Demand helps in reducing the wastage of raw materials which would
 
 ## Feature Selection 
 
--- Four Feature slection methods were used
+-- Three Feature slection methods were used
 ### 1) Filter methods 
 a) Correlation: Highly correlated independent features will be removed 
 b) Anova Test: Gives top 40 features 

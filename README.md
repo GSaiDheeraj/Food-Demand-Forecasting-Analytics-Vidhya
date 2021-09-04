@@ -29,7 +29,7 @@ cuisine:	Meal cuisine (Indian/Italian/…)
 Since the problem statement is to find the demand of the Food supply , num_orders which gives the information orders count will be the target variable because if a particular food item x was order n number of times and food item y ordered 2x number of times we can tell item y has more demand and we nee to predict that demand                                                                  
 
 In addition to the above point the num_order column was not given in test.csv file.😝                                                      
-Question) There are some other columns as well that aren't given in test.csv file what about those?
+Question) There are some other columns as well that aren't given in test.csv file what about those?                                                                                                                
 Answer) Probably we can use them for feature engineering purpose(For creating more features)
 
 
@@ -98,24 +98,4 @@ b) Ridge Regression for feature felection
 4) Artificial Neural Networks
 5) H2O Auto ML
 6) Eval ML
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
